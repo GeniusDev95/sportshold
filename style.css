@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0%;
+    margin: 0%;
+    font-family: "kanit", sans-serif;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    background-color:#482424;
+    
+    padding: 10px 15%;
+}
+.links1, .links2, .links3{
+    display: flex;
+    gap: 25px;
+}
+.links1 a, .links2 a{
+    text-decoration: none;
+    color: white;
+    font-family: "kanit", sans-serif;
+    font-weight: 300;
+    font-size: smaller;
+}
+.links3 a{
+    text-decoration: none;
+    color: white;
+    font-family: "kanit", sans-serif;
+    font-weight: 300;
+    font-size: smaller;
+    padding-top: 5px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    background-color:#633231;
+    padding: 15px 15%;
+}
+.links1 a:hover, .links2 a:hover{
+    background-color:coral;
+}
+.links3 a:hover{
+    border-bottom: 3px;
+    border-color: coral;
+}
+.poster{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: blue; */
+    /* margin-bottom: -70px; */
+}
+.poster-img{
+    width: 50%;
+    margin-top: -70px;
+    margin-bottom: -47px;
+}
+.poster-img img{
+    width: 100%;
+
+}
+.text{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    background-color: red;
+    border-style: none;
+    width: 180px;
+    padding: 6px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+
+}
